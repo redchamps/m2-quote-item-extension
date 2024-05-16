@@ -1,0 +1,19 @@
+{
+    "name": "redchamps/module-quote-item-extension",
+    "description": "This extension will add additional info of quote item to extension attributes.",
+    "require": {
+        "magento/module-quote": "*"
+    },
+    "license": [
+        "RedChamps EULA"
+    ],
+    "type": "magento2-module",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "RedChamps\\QuoteItemExtension\\": ""
+        }
+    }
+}
