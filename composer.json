@@ -5,7 +5,8 @@
         "magento/module-quote": "*"
     },
     "license": [
-        "RedChamps EULA"
+        "OSL-3.0",
+        "AFL-3.0"
     ],
     "type": "magento2-module",
     "autoload": {
