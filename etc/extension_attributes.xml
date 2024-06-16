@@ -2,13 +2,13 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Api/etc/extension_attributes.xsd">
     <extension_attributes for="Magento\Quote\Api\Data\CartItemInterface">
-        <attribute code="discount_amount" type="float" />
-        <attribute code="tax_percent" type="float" />
-        <attribute code="tax_amount" type="float" />
-        <attribute code="row_total" type="float" />
-        <attribute code="row_total_with_discount" type="float" />
-        <attribute code="row_weight" type="float" />
-        <attribute code="price_incl_tax" type="float" />
-        <attribute code="row_total_incl_tax" type="float" />
+        <attribute code="item_discount_amount" type="float" />
+        <attribute code="item_tax_percent" type="float" />
+        <attribute code="item_tax_amount" type="float" />
+        <attribute code="item_row_total" type="float" />
+        <attribute code="item_row_total_with_discount" type="float" />
+        <attribute code="item_row_weight" type="float" />
+        <attribute code="item_price_incl_tax" type="float" />
+        <attribute code="item_row_total_incl_tax" type="float" />
     </extension_attributes>
 </config>
